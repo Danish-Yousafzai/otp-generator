@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.form{
+    width: 500px;
+    background: url(./bg.png);
+    padding: 0 30px;
+    display: grid;
+    gap: 20px;
+    padding-bottom:30px;
+}
+
+.form h1{
+    color: white;
+}
+
+.btn{
+    padding: 20px;
+    color: white;
+    font-weight: bolder;
+    background-color: #233db3;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+    place-self: center;
+
+}
